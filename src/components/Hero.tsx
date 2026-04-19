@@ -27,7 +27,7 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight leading-none">
+        <h1 className="text-5xl md:text-7xl lg:text-9xl tracking-tight leading-none" style={{fontFamily: '"Russo One", sans-serif'}}>
           FRONTIER<br />STALKER RP
         </h1>
       </div>
