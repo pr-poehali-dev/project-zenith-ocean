@@ -102,19 +102,23 @@ const Index = () => {
         className="relative flex items-center justify-center"
         style={{
           minHeight: "40vh",
-          backgroundImage: `url(https://cdn.poehali.dev/projects/3ac1b08c-8aa2-43ab-a27f-444fbb2a6fe3/files/470b96c7-b1c0-4700-bbfc-c3a30590d5fc.jpg)`,
+          backgroundImage: `url(https://cdn.poehali.dev/projects/3ac1b08c-8aa2-43ab-a27f-444fbb2a6fe3/files/f594fd53-a110-467e-9d42-f426827910a3.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          imageRendering: "crisp-edges",
         }}
       >
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.65)" }} />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.55)" }} />
         <div className="relative z-10 text-center px-6 py-16">
-          <p className="text-xs uppercase tracking-[0.4em] mb-4" style={{ color: "#f5a329" }}>
-            DayZ · Roleplay · СТАЛКЕР Universe
-          </p>
           <h1
-            className="text-5xl md:text-7xl lg:text-8xl leading-none mb-4"
-            style={{ fontFamily: '"Russo One", sans-serif', color: "#ffffff" }}
+            className="text-4xl md:text-6xl lg:text-7xl leading-none mb-4"
+            style={{
+              fontFamily: '"Russo One", sans-serif',
+              color: "transparent",
+              WebkitTextStroke: "2px #f5a329",
+              paintOrder: "stroke fill",
+            }}
           >
             FRONTIER<br />STALKER RP
           </h1>
