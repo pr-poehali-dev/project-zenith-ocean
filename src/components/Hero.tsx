@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/3ac1b08c-8aa2-43ab-a27f-444fbb2a6fe3/files/0e923deb-515f-4e69-85d4-8b417f35a1a1.jpg"
+          src="https://cdn.poehali.dev/projects/3ac1b08c-8aa2-43ab-a27f-444fbb2a6fe3/files/470b96c7-b1c0-4700-bbfc-c3a30590d5fc.jpg"
           alt="Зона отчуждения"
           className="w-full h-full object-cover"
         />
