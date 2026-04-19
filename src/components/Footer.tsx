@@ -9,50 +9,63 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-green-400/70 text-xs sm:text-sm tracking-widest">Сервер</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-xs sm:text-sm tracking-widest" style={{color: 'rgba(245,163,41,0.7)'}}>Сервер</h3>
                 <a
                   href="#rules"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base hover:opacity-80"
+                  style={{}}
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   Правила
                 </a>
                 <a
                   href="#factions"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base"
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   Фракции
                 </a>
                 <a
                   href="#join"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base"
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   Вступить
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-green-400/70 text-xs sm:text-sm tracking-widest">Сообщество</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-xs sm:text-sm tracking-widest" style={{color: 'rgba(245,163,41,0.7)'}}>Сообщество</h3>
                 <a
                   href="#discord"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base"
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   Discord
                 </a>
                 <a
                   href="#vk"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base"
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   ВКонтакте
                 </a>
                 <a
                   href="#telegram"
-                  className="text-white hover:text-green-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white transition-colors duration-300 text-sm sm:text-base"
+                  onMouseEnter={e => (e.currentTarget.style.color = '#f5a329')}
+                  onMouseLeave={e => (e.currentTarget.style.color = 'white')}
                 >
                   Telegram
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-green-400 font-bold tracking-tight">
+              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 font-bold tracking-tight" style={{color: '#f5a329'}}>
                 ЗОНА
               </h1>
               <p className="text-neutral-500 text-sm sm:text-base">{new Date().getFullYear()} STALKER RP · DayZ</p>

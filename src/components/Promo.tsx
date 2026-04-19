@@ -26,7 +26,7 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 left-6 text-green-400 uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em]">
+      <h3 className="absolute top-12 left-6 uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em]" style={{color: '#f5a329'}}>
         ☢ Аномальная активность
       </h3>
 

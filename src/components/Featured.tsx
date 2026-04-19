@@ -27,14 +27,14 @@ export default function Featured() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           <div className="lg:w-1/2">
-            <p className="text-green-400 uppercase text-xs tracking-[0.4em] mb-4">Кодекс выживших</p>
+            <p className="uppercase text-xs tracking-[0.4em] mb-4" style={{color: '#f5a329'}}>Кодекс выживших</p>
             <h2 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-8">
               ПРАВИЛА<br />ЗОНЫ
             </h2>
             <p className="text-neutral-400 text-lg leading-relaxed mb-10">
               Зона живёт по своим законам. Здесь нет случайностей — только последствия твоих выборов. Ознакомься с правилами перед тем, как шагнуть за периметр.
             </p>
-            <div className="h-px bg-green-400/30 mb-10" />
+            <div className="h-px mb-10" style={{backgroundColor: '#f5a329', opacity: 0.3}} />
             <img
               src="https://cdn.poehali.dev/projects/3ac1b08c-8aa2-43ab-a27f-444fbb2a6fe3/files/daa0a475-224a-4228-b23b-ffb84d407067.jpg"
               alt="Сталкер в Зоне"
@@ -43,8 +43,8 @@ export default function Featured() {
           </div>
           <div className="lg:w-1/2 flex flex-col gap-10">
             {rules.map((rule) => (
-              <div key={rule.number} className="border-l-2 border-green-400/40 pl-6 hover:border-green-400 transition-colors duration-300">
-                <span className="text-green-400/60 text-xs uppercase tracking-widest mb-2 block">{rule.number}</span>
+              <div key={rule.number} className="border-l-2 pl-6 transition-colors duration-300" style={{borderColor: 'rgba(245,163,41,0.35)'}}>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{color: 'rgba(245,163,41,0.7)'}}>{rule.number}</span>
                 <h3 className="text-white text-xl font-bold mb-3">{rule.title}</h3>
                 <p className="text-neutral-400 leading-relaxed">{rule.text}</p>
               </div>
